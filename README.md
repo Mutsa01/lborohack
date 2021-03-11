@@ -5,3 +5,4 @@ Team Members:
 - Jaye Akinola
 - Luca Lemon-Morgan
 - Mutsa
+- Jordan Edoimioya
