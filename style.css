@@ -1,0 +1,52 @@
+.transition-fade{
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade{
+    opacity: 0;
+    
+}   
+
+#navBar {
+    float: right;
+    background:#5474FA;
+    width: 100%;
+}
+
+#navBar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+#navBar ul li {
+    display: block;
+    float: right;
+    font-family:'Poppins' ;
+}
+
+#navBar ul li a {
+    display: block;
+    padding: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 42px; 
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#navBar ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background: #3951b1;
+}

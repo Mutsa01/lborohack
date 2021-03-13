@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+
         <title>Plants Quiz</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+        <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+        
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Question 1: Help Alex save the plant!</h1>
-        <h2>Help! Alex's flower is dying, what should he do do to make it grow again?</h2>
 
-        <div id="quiz">
+            <div id="navBar">  
+
+                <ul>
+                    <li><a href="correct.html">Home</a></li>
+                    <li><a href="#">Subjects</a></li>
+                    <li><a href="#">Progress</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+
+            </div>
+
+        
+
+            <h1>Question 1: Help Alex save the plant!</h1>
+            <h2>Help! Alex's flower is dying, what should he do do to make it grow again?</h2>
+
+
             <label for ="answer1">Move it into the sunlight</label>
             <input type ="radio" id="answer1" name="answer" value=1>
             <br>
@@ -22,9 +40,9 @@
             <input type ="radio" id="answer3" name="answer" value=0>
             <br>
 
-            <button onclick="checkAnswer()">Check Answer</button>
+            <button id="submit" onclick="checkAnswer()">Check Answer</button>
 
-        </div>
+        
 
         <script>      
             var attempts=1;
