@@ -4,7 +4,10 @@
 
         <title>Star Shop | Bah-zing!</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
-        <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+        <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+        <script>
+            function goHome() {window.open("home.html","_self");}
+        </script> 
         
         <link rel="stylesheet" href="jayestyle.css">
     </head>
@@ -14,7 +17,8 @@
         <div class="topnav">
             <span>
                 <!-- place picture on same line as nav bar text -->
-                <img class="logo" src="assets/bahzing logo.png" height="72" width="140"style='display:inline;' alt="logo">
+                <img class="logo" src="assets/bahzing logo.png" height="72" width="140"style='display:inline;' alt="logo"
+                onclick="goHome();">
             </span>
 
             <a id="Button" href="shop.html">Shop &#9733;</a>
