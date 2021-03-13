@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title> Biology | Plants </title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+</html>
+<body >
+    <div class="topnav">
+        <span>
+            <!-- place picture on same line as nav bar text -->
+            <img class="logo" src='assets/bahzing logo.png' height="60" width="120"style='display:inline;'>
+            
+        </span>
+
+        <a id="shopButton" href="shop.html">Shop &#9733;</a>
+        <a href="account.html">Account</a>
+        <a href="progress.html">Progress</a>
+        <a href="topics.html">Subjects</a>
+        <a href="home.html">Home</a>
+    </div>
+
+    <div style="text-align: left; margin-top: 1%;">
+    <a id="shopButton" href="topics.html" style="text-decoration: none;"> &#8592; Back </a>
+    </div>
+
+    <div>
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <h2 style="font-family:'Poppins', sans-serif;">Plants: What makes up a plant </h2>
+
+
+
+    <img id=upThumb src='assets/thumb up.png' onclick="changeUpThumb()" height="35" width="70" style = "margin-bottom: -5%; margin-right: -19%;">
+    <script>
+        function changeUpThumb (){
+            var upThumbS = document.getElementById("upThumb");
+            upThumbS.src = "assets/filled thumb up.png"
+     }
+    </script>
+
+    <iframe style="margin-top: 1%;" width="760" height="515" src="https://www.youtube.com/embed/lWcIhIyKeog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    
+    <img id=downThumb onclick="changeDownThumb()" src='assets/thumb down.png' height="35" width="70" style = "margin-bottom: -5%; margin-left: -19%;" >
+    <script>
+        function changeDownThumb (){
+            var downThumbS = document.getElementById("downThumb");
+            downThumbS.src = "assets/filled thumb down.png"
+        }
+    </script>
+
+</div>
+    
+    <div style="margin-top: 8%;">
+    <a id="shopButton" href="quiz.html" style="text-align: center; text-decoration: none;"> Test Me </a>
+    </div>
+
+
+</body>
