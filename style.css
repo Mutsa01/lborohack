@@ -17,6 +17,12 @@
     padding-right: 20px;
 }
 
+.back{
+    float: left;
+    width: 150px;
+    font-size: 17px;
+}
+
 
 
 #check{
@@ -148,6 +154,7 @@ p{
     font-style: italic;
     font-weight: 300;
     font-size: 25px;
+    padding-right: 270px;
     text-align: center;
 }
 
@@ -157,6 +164,7 @@ p{
     font-weight: 600;
     font-size: 50px;
     text-align: center;
+    padding-right: 270px;
 }
 
 .q{

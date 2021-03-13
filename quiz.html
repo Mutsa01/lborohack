@@ -24,7 +24,8 @@
             <a class="active" href="#home">Home</a>
         </div>
 
-        
+            
+            <button class=" back" id="Button" onclick="back()">&#8592; Back</button>
 
             <p class="question">Question 1/10</p>
             <p class="story"> Help Alex save the plant!</p>
@@ -48,17 +49,17 @@
                     <label for ="answer1">Move it into the sunlight</label>
                     
                     <br>
-                    <input class="rad" type ="radio" id="answer2" name="answer" value=0>
-                    <label for ="answer2">Leave it where it is</label>
+                    <input  class="rad" type ="radio" id="answer2" name="answer" value=0>
+                    <label style="padding-right: 165px;" for ="answer2">Leave it where it is</label>
                     
                     <br>
                     <input class="rad" type ="radio" id="answer3" name="answer" value=0>
-                    <label for ="answer3">Remove dead petals</label>
+                    <label style="padding-right: 125px;" for ="answer3">Remove dead petals</label>
                     
 
                     <br>
                     <input  class="rad" type ="radio" id="answer4" name="answer" value=0>
-                    <label for ="answer4">Sugar</label>
+                    <label for ="answer4" style="padding-right: 340px;">Sugar</label>
                     
                     
                 
@@ -111,6 +112,11 @@
 
                 console.log(attempts +"\n"+stars);
             }
+
+
+            function back() {
+                window.open("jordan page","_self");
+              }
 
 
         
