@@ -104,8 +104,11 @@
                     window.open("correct.html","_self");
                 }else{
                     
+                    
                     if (attempts % 3 ==0){
                         window.open("wrong.html","_self");
+                    }else{
+                        window.alert("Sorry wrong answer, Have another try")
                     }
                     attempts+=1;
                 }    
