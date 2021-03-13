@@ -3,6 +3,14 @@
     <head>
         <link rel="stylesheet" href="topics-style.css">
         <title>Topics | Bah-zing!</title>
+
+        <!-- JAVASCRIPT -->
+
+        <script>
+        function plantsPage() {window.open("Plant_Video_Page.html","_self");}
+        function goHome() {window.open("home.html","_self");}
+        </script>
+
     </head>
     <body>
 
@@ -11,17 +19,18 @@
         <div class="topnav">
             <span>
                 <!-- place picture on same line as nav bar text -->
-                <img class="logo" src='/assets/bahzing logo.png' height="60" width="120"style='display:inline;'>
+                <img class="logo" src='/assets/bahzing logo.png' height="60" width="120"style='display:inline;'
+                onclick="goHome();">
             </span>
 
-            <a id="shopButton" class="roundedButtons" href="#shop">Shop &#9733;</a>
+            <a id="shopButton" class="roundedButtons" href="shop.html">Shop &#9733;</a>
             <a href="#account">Account</a>
             <a href="#progress">Progress</a>
-            <a class="active" href="#subjects">Subjects</a>
-            <a  href="#home">Home</a>
+            <a class="active" href="topics.html">Topics</a>
+            <a  href="home.html">Home</a>
         </div>
 
-        <a id="backButton" class="roundedButtons" href="#home"><span id="arrow">&#10142;</span> Back</a>
+        <a id="backButton" class="roundedButtons" href="home.html"><span id="arrow">&#10142;</span> Back</a>
 
         <br>
         <br>
@@ -51,7 +60,7 @@
                 <img class="subjectIcons" src="/assets/lungs icon.png"><span class="subjectNames">Lungs</span>
             </button>
 
-            <button class="subjectButtons below">
+            <button class="subjectButtons below" onclick="plantsPage();">
                 <img class="subjectIcons" src="/assets/plants icon.png"><span class="subjectNames">Plants</span>
             </button>
 
