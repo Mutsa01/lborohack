@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plants Quiz</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    </head>
+
+    <body>
+        <h1>Question 1: Help Alex save the plant!</h1>
+        <h2>Help! Alex's flower is dying, what should he do do to make it grow again?</h2>
+
+        <div id="quiz">
+            <label for ="answer1">Move it into the sunlight</label>
+            <input type ="radio" id="answer1" name="answer" value=1>
+            <br>
+
+            <label for ="answer2">Leave it where it is</label>
+            <input type ="radio" id="answer2" name="answer" value=0>
+            <br>
+
+            <label for ="answer3">Remove dead petals</label>
+            <input type ="radio" id="answer3" name="answer" value=0>
+            <br>
+
+            <button onclick="checkAnswer()">Check Answer</button>
+
+        </div>
+
+        <script>      
+            var attempts=1;
+            var stars=0;
+            function correct(answer){
+                var stars
+
+                
+
+                if(answer==1){
+                    return true
+                }
+                else return false
+
+            }
+
+            function checkAnswer(){
+                
+                if(correct($("input[name='answer']:checked").val())){
+                    if (attempts==1){
+                        stars+=3;
+                    }else if(attempts==2){
+                        stars+=2;
+
+                    }else{
+                        stars+=1;
+                    }
+                }else{
+                    attempts+=1;
+                }
+
+                console.log(attempts +"\n"+stars);
+            }
+
+
+        
+        </script>
+
+    </body>
+</html>
