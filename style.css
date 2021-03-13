@@ -14,8 +14,10 @@
     /* space between button and words */
     padding: 10px; /* top and bottom */
     padding-left: 25px;
-    padding-right: 20px
+    padding-right: 20px;
 }
+
+
 
 #check{
     margin-top: 50px;
@@ -203,4 +205,100 @@ p{
 
 
 
+}
+
+
+#good{
+    font-family: Poppins;
+    font-style: bold;
+    font-size: 60px;
+}
+
+#info{
+    font-family: Poppins;
+    font-style: normal;
+    margin: 0;
+    
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+.para{
+    padding-top: 200px;
+    padding-right: 250px;
+    margin:0;
+    float: right;
+}
+
+
+.kids{
+    margin:0;
+    float: right;
+}
+#correct{
+    margin: 0;
+    float: right;
+    width: 600px ;
+    height: 639px;
+
+}
+
+
+.wrap{
+    margin: 0;
+    clear: both;
+    width: 60%;
+
+
+}
+
+
+.g{
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Poppins;
+    padding-bottom: 10px;
+}
+
+.star{
+    background-color: #F4A261;           
+    border: 1px;
+    border-radius: 70px;
+    color: white;
+    font-family: Poppins;
+    font-size: 17px;
+    /* stretch button border */
+
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
+    float:left;
+    width: 200px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.next{
+    margin-top: 17px;
+    width: 200px;
+    background-color:white;           
+    border: 1px solid black;
+    font-size: 17px;
+    border-radius: 70px;
+    color: black;
+    font-family: Poppins;
+
+    /* stretch button border */
+
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
+    float:left;
 }
