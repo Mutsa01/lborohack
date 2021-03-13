@@ -212,6 +212,7 @@ p{
     font-family: Poppins;
     font-style: bold;
     font-size: 60px;
+    text-align: justify;
 }
 
 #info{
@@ -248,7 +249,8 @@ p{
 .wrap{
     margin: 0;
     clear: both;
-    width: 60%;
+    width: 50%;
+    float: right;
 
 
 }
@@ -301,4 +303,29 @@ p{
     padding-left: 25px;
     padding-right: 20px;
     float:left;
+}
+.try{
+    float: left;
+    font-size: 17px;
+    width: 200px;
+}
+
+#wrong{
+    margin: 0;
+    float: right;
+    width: 565px ;
+    height: 800px;
+
+}
+
+#vid{
+    float: right;
+}
+
+
+.p{
+    padding-top: 60px;
+    padding-right: 90px;
+    margin:0;
+    float: right;
 }

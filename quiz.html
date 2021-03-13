@@ -102,8 +102,12 @@
 
                     window.open("correct.html","_self");
                 }else{
+                    
+                    if (attempts % 3 ==0){
+                        window.open("wrong.html","_self");
+                    }
                     attempts+=1;
-                }
+                }    
 
                 console.log(attempts +"\n"+stars);
             }
