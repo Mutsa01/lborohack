@@ -1,52 +1,97 @@
-.transition-fade{
-    opacity: 1;
-    transition: 500ms;
-    transform: translateX(0);
-    transform-origin: left;
+
+#shopButton {
+    background-color: #F4A261;           
+    border: 1px;
+    border-radius: 70px;
+
+    /* stretch button border */
+    margin-top: 19px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
 }
 
-html.is-animating .transition-fade{
-    opacity: 0;
-    transform: translateX(100%);
-}
 
-html.is-leaving .transition-fade{
-    opacity: 0;
-    
-}   
+.topnav {
+    overflow: hidden;
+    background-color: #F3DFCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* shadow below nav bar */
+  }
 
-#navBar {
+.topnav a {
     float: right;
-    background:#5474FA;
-    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 30px 40px; /* x = upper/lower, y = between each word */
+    text-decoration: none; /* removes default underline */
+    font-size: 20px;
+  }
+  
+  /* nav bar hover animation */
+.topnav a:hover {
+    background-color:#F3A261;
+    color: black;
+  }
+
+/* highlights current page */
+.topnav a.active {
+    background-color: #F3A261;
+    color: black;
 }
 
-#navBar ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+img {
     position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: left;
 }
 
-#navBar ul li {
-    display: block;
-    float: right;
-    font-family:'Poppins' ;
+.subjectButtons {
+    background-color:white;
+    width: 417.94px;
+    height: 127.3px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-#navBar ul li a {
-    display: block;
-    padding: 4px;
-    padding-left: 13px;
-    padding-right: 13px;
-    color: #fff;
-    text-decoration: none;
-    line-height: 42px; 
-    font-family:Arial, Helvetica, sans-serif ;
+.subjectButtons:hover {
+    background-color: #F2F4FF;
 }
 
-#navBar ul li a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    background: #3951b1;
+body {
+    background-color: #6780ff;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    margin: 0;
+}
+
+#mainText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+}
+
+#subjects {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0px; /* gap between subjects and quote */
+}
+
+#quote {
+    font-style: italic;
+    font-weight: 349;
+    font-size: 25px;
 }
