@@ -1,0 +1,98 @@
+
+#shopButton {
+    background-color: #F4A261;           
+    border: 1px;
+    border-radius: 70px;
+
+    /* stretch button border */
+    margin-top: 19px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #F3DFCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* shadow below nav bar */
+  }
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 30px 40px; /* x = upper/lower, y = between each word */
+    text-decoration: none; /* removes default underline */
+    font-size: 20px;
+  }
+  
+  /* nav bar hover animation */
+.topnav a:hover {
+    background-color:#F3A261;
+    color: black;
+  }
+
+/* highlights current page */
+.topnav a.active {
+    background-color: #F3A261;
+    color: black;
+}
+
+img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: left;
+}
+
+.subjectButtons {
+    background-color:white;
+    width: 417.94px;
+    height: 127.3px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.subjectButtons:hover {
+    background-color: #F2F4FF;
+}
+
+body {
+    background-color: #6780ff;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    margin: 0;
+}
+
+#mainText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+}
+
+#subjects {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0px; /* gap between subjects and quote */
+}
+
+#quote {
+    font-style: italic;
+    font-weight: 349;
+    font-size: 25px;
+}
+
