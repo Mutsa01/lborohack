@@ -11,39 +11,67 @@
 
     <body>
 
-            <div id="navBar">  
+        <div class="topnav">
+            <span>
+                <!-- place picture on same line as nav bar text -->
+                <img class="logo" src="assets/bahzing logo.png" height="72" width="140"style='display:inline;' alt="logo">
+            </span>
 
-                <ul>
-                    <li><a href="correct.html">Home</a></li>
-                    <li><a href="#">Subjects</a></li>
-                    <li><a href="#">Progress</a></li>
-                    <li><a href="#">Account</a></li>
-                </ul>
+            <a id="Button" href="#shop">Shop &#9733;</a>
+            <a href="#account">Account</a>
+            <a href="#progress">Progress</a>
+            <a href="#subjects">Subjects</a>
+            <a class="active" href="#home">Home</a>
+        </div>
+
+        
+
+            <p class="question">Question 1/10</p>
+            <p class="story"> Help Alex save the plant!</p>
+            <p class="q">Help! Alex's flower is dying, what should he do do to make it grow again?</p>
+
+            
+            
+            
+            <br>
+
+                
+            <div id="container">
+                <div id="pic">
+                <img class="plant" src="assets/47776 1.png" alt="plant">
+                </div>
+
+
+                <div class="quiz">
+
+                    
+                    <label for ="answer1">Move it into the sunlight</label>
+                    <input class="rad" type ="radio" id="answer1" name="answer" value=1>
+                    <br>
+
+                    <label for ="answer2">Leave it where it is</label>
+                    <input class="rad" type ="radio" id="answer2" name="answer" value=0>
+                    <br>
+
+                    <label for ="answer3">Remove dead petals</label>
+                    <input class="rad" type ="radio" id="answer3" name="answer" value=0>
+
+                    <br>
+                    <label for ="answer4">Sugar</label>
+                    <input  class="rad" type ="radio" id="answer4" name="answer" value=0>
+                    
+                
+
+                
+                </div>
 
             </div>
-
-        
-
-            <h1>Question 1: Help Alex save the plant!</h1>
-            <h2>Help! Alex's flower is dying, what should he do do to make it grow again?</h2>
-
-
-            <label for ="answer1">Move it into the sunlight</label>
-            <input type ="radio" id="answer1" name="answer" value=1>
+            
             <br>
-
-            <label for ="answer2">Leave it where it is</label>
-            <input type ="radio" id="answer2" name="answer" value=0>
             <br>
-
-            <label for ="answer3">Remove dead petals</label>
-            <input type ="radio" id="answer3" name="answer" value=0>
-            <br>
-
-            <button id="submit" onclick="checkAnswer()">Check Answer</button>
-
-        
-
+            <div id="check">
+                <button id="Button"  onclick="checkAnswer()">Check Answer</button>
+            </div>
         <script>      
             var attempts=1;
             var stars=0;
