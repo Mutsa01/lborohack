@@ -33,8 +33,8 @@
                 
                 <p id="info">It’s okay to get things wrong! That’s how you learn.</p>
                 <p id="info">Take the quiz again or watch another video.</p>
-                <img id="vid" src="assets/Group 924.png" alt=video>
-                <button class="try" id="Button">Try again</button>
+                <img id="vid" src="assets/Group 924.png" alt=video onclick="goVid()">
+                <button class="try" id="Button" onclick="goBack()">Try again</button>
             </div>
                 
 
@@ -45,7 +45,15 @@
             
 
 
-           
+        <script>
+            function goBack(){
+                window.open("quiz.html","_self");
+            }
+
+            function goVid(){
+                window.open("mutsavidpage","_self");
+            }
+        </script>
 
 
   

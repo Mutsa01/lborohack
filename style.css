@@ -311,6 +311,7 @@ p{
 }
 
 #wrong{
+    padding-right: 30px;
     margin: 0;
     float: right;
     width: 565px ;
