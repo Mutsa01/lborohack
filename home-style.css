@@ -1,0 +1,122 @@
+
+#shopButton {
+    background-color: #F4A261;           
+    border: 1px;
+    border-radius: 70px;
+    color: white;
+
+    /* stretch button border */
+    margin-top: 19px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#shopButton:hover {
+    background: #d48342;
+    box-shadow: inset 2px -7px 11px rgba(80, 92, 51, 0.17);
+}
+
+/* ====== NAV BAR ====== */
+
+.topnav {
+    overflow: hidden;
+    background-color: #F3DFCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* shadow below nav bar */
+  }
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 32px 40px; /* x = upper/lower, y = between each word */
+    text-decoration: none; /* removes default underline */
+    font-size: 20px;
+  }
+  
+/* nav bar hover animation for each tab */
+.topnav a:hover {
+    background-color:#F3A261;
+    color: black;
+  }
+
+/* highlights current page */
+.topnav a.active {
+    background-color: #F3A261;
+    color: black;
+}
+
+img.logo {
+    float: left;
+    position: relative;
+    max-width: 100%;
+    /*height: auto;                 not sure what this does but scared to remove lol */
+    padding: 13px;
+    margin-left: 30px;
+}
+
+.subjectButtons {
+    background-color:white;
+    width: 417.94px;
+    height: 127.3px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 45px;
+    margin-top: -70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.subjectNames {
+    vertical-align: 25px;
+    margin-left: 30px;
+}
+
+.subjectIcons {
+    padding-right: 10px;
+    height: 90px;
+    width: 87px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+.subjectButtons:hover {
+    background-color: #F2F4FF;
+}
+
+body {
+    background-color: #6780ff;
+    color: white;
+    text-align: center;
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+}
+
+#mainText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+}
+
+#subjects {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0px; /* gap between subjects and quote */
+}
+
+#quote {
+    font-style: italic;
+    font-weight: 349;
+    font-size: 25px;
+}

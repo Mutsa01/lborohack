@@ -1,0 +1,158 @@
+
+#shopButton {
+    background-color: #F4A261;           
+    border: 1px;
+    border-radius: 70px;
+    color: white;
+
+    /* stretch button border */
+    margin-top: 19px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+    /* space between button and words */
+    padding: 10px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#backButton {
+    float: left;
+    background-color: #F4A261;
+    color: white;
+    text-decoration: none;           
+    border: 1px;
+    border-radius: 70px;
+
+    /* stretch button border */
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 80px;
+
+    /* space between button and words */
+    padding: 7px; /* top and bottom */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.roundedButtons:hover {
+    background: #d48342;
+    box-shadow: inset 2px -7px 11px rgba(80, 92, 51, 0.17);
+}
+
+#arrow {
+    /* flip arrow */
+    transform: rotate(180deg);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #6780ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* shadow below nav bar */
+  }
+
+/* ======= NAVBAR ======= */
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 34px 40px; /* x = upper/lower, y = between each word */
+    text-decoration: none; /* removes default underline */
+    font-size: 20px;
+  }
+  
+/* nav bar hover animation for each tab */
+.topnav a:hover {
+    background-color:#F3A261;
+    color: white;
+  }
+
+/* highlights current page */
+.topnav a.active {
+    background-color: #F3A261;
+    color: white;
+}
+
+img.logo {
+    float: left;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 13px;
+    margin-left: 30px;
+}
+
+/* ======= SUBJECT BUTTONS ======= */
+
+.top { /* top row */
+    background-color:#F3F3F3;
+    width: 417.94px;
+    height: 127.3px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 45px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.below { /* bottom row */
+    background-color:#F3F3F3;
+    width: 417.94px;
+    height: 127.3px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 45px;
+    margin-top: 95px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.subjectNames {
+    vertical-align: 25px;
+    margin-left: 30px;
+}
+
+.subjectIcons {
+    padding-right: 10px;
+    height: 90px;
+    width: 87px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+.subjectButtons:hover {
+    background-color: #F2F4FF;
+}
+
+/* ===== PAGE BODY ===== */
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Montserrat, Arial, sans-serif;
+    margin: 0;
+}
+
+
+#sciTopics {
+    font-style: normal;
+    font-weight: 545;
+    font-size: 60px;
+    margin: 0px; /* gap between subjects and quote */
+    margin-top: 50px;
+}
