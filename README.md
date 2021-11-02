@@ -4,5 +4,5 @@ Team Members:
 - Samuel Ola
 - Jaye Akinola
 - Luca Lemon-Morgan
-- Mutsa
+- Mutsa Mutasa
 - Jordan Edoimioya
